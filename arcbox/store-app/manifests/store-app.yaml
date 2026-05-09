@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: store-app
-          image: ghcr.io/kimvaddi/store-app:924143e
+          image: ghcr.io/kimvaddi/store-app:13ecf47
           ports:
             - containerPort: 80
 ---
