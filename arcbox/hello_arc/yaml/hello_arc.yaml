@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: This is an Azure Arc GitOps Demo!
+          value: Live from GitHub - pushed at 16:55 - synced to edge by Azure Arc!
