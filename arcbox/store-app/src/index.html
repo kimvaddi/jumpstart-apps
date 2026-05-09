@@ -14,16 +14,8 @@
 </head>
 <body>
   <h1>Welcome to Contoso Edge Store</h1>
-  <p class="credits">
-    <strong>Built by</strong> GitHub Actions
-    <span class="pipe">|</span>
-    <strong>Deployed by</strong> Flux
-    <span class="pipe">|</span>
-    <strong>Governed by</strong> Azure Arc
-  </p>
+  <p class="credits"><strong>Built by</strong> GitHub Actions <span class="pipe">|</span> <strong>Deployed by</strong> Flux <span class="pipe">|</span> <strong>Governed by</strong> Azure Arc</p>
   <div class="version">VERSION: 1.0</div>
-  <p class="footnote">
-    GitHub Actions builds and pushes the container to GHCR. Flux (running inside the K3s cluster as an Azure Arc managed extension) pulls the manifest from Git every 30 seconds and applies it to Kubernetes. Azure Arc exposes the GitOps configuration as an Azure resource for RBAC, Policy, and audit.
-  </p>
+  <p class="footnote">GitHub Actions builds and pushes the container to GHCR. Flux (running inside the K3s cluster as an Azure Arc managed extension) pulls the manifest from Git every 30 seconds and applies it to Kubernetes. Azure Arc exposes the GitOps configuration as an Azure resource for RBAC, Policy, and audit.</p>
 </body>
 </html>
